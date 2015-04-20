@@ -1,0 +1,164 @@
+#myform input[type="password"], #myform input[type="text"], textarea, #termin,#ime, #dan, #datumnarudzbe,#datumunosa,#datumpromjene, #pasmina, #uvjet, #korisnickoime, #novaLozinka, #ponovoNovaLozinka, #lozinka, #lozinkaponovo, #trenutnaLozinka{
+
+	background: transparent;
+	border: 2px solid #4A136D;
+	padding: 9px 5px;
+	text-indent: 6px;
+	-webkit-appearance: none;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: border .25s linear, color .25s linear;
+	-moz-transition: border .25s linear, color .25s linear;
+	-o-transition: border .25s linear, color .25s linear;
+	transition: border .25s linear, color .25s linear;
+	-webkit-backface-visibility: hidden;
+	width: 100%;
+}
+#myform input[type="password"]:focus, #myform input[type="text"]:focus {
+	outline: 0;
+}
+
+.strength_meter {
+	position: absolute;
+	left: 16px;
+	top: 53px;
+	width: 94.5%;
+	height: 20px;
+	z-index: -1;
+	border-radius: 5px;
+	padding-right: 13px;
+}
+.button_strength {
+	position: absolute;
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+	padding: 0px;
+	top: 90px;
+}
+.strength_meter div {
+	width: 0%;
+	height: 37px;
+	text-align: right;
+	color: #000;
+	line-height: 37px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	padding-right: 12px;
+	border-radius: 5px;
+}
+.strength_meter div p {
+	position: absolute;
+	top: 36px;
+	right: 15px;
+	color: #000000;
+	font-size: 12px;
+}
+
+.veryweak {
+	background-color: #FFA0A0;
+	border-color: #F04040 !important;
+	width: 25% !important;
+}
+.weak {
+	background-color: #FFB78C;
+	border-color: #FF853C !important;
+	width: 50% !important;
+}
+.medium {
+	background-color: #FFEC8B;
+	border-color: #FC0 !important;
+	width: 75% !important;
+}
+.strong {
+	background-color: #C3FF88;
+	border-color: #8DFF1C !important;
+	width: 100% !important;
+}
+
+#myform input[type="text"]:focus, #myform input#lozinkaponovo:focus{
+	background-color: #784b92;
+	color: white;
+	
+}
+
+
+.registrirajsebutton{
+	height: 37px;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center; 
+	line-height: 5px;
+	background-color: #83A738;
+	left: 125px;
+}
+
+.prijavisebutton {
+	height: 37px;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center; 
+	line-height: 5px;
+	background-color: #83A738;
+	left: 145px;
+}
+
+.registrirajsebutton:hover, .prijavisebutton:hover{
+	background-color: #ABCD63;
+}
+/*
+#myform select{
+
+	border: 2px solid #4A136D;
+	-webkit-appearance: none;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: border .25s linear, color .25s linear;
+	-moz-transition: border .25s linear, color .25s linear;
+	-o-transition: border .25s linear, color .25s linear;
+	transition: border .25s linear, color .25s linear;
+	-webkit-backface-visibility: hidden;
+	width: 100%;
+}
+*/
+select, #termin {
+  -webkit-appearance: none !important;
+  border-radius: 6px;
+  background-color: white;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #4A136D;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.75);
+  line-height: normal;
+  border-radius: 6px;
+  height: 2.3125rem; }
+  select::-ms-expand {
+    display: none; }
+  select.radius {
+    border-radius: 6px; }
+  select:hover {
+    background-color: white;
+    border-color: #4A136D; }
+  select:disabled {
+    background-color: white;
+    cursor: default; }
+  select[multiple] {
+    height: auto; }
+
