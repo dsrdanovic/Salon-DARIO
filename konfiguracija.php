@@ -26,7 +26,7 @@ $putanjaApp = "/";
 $mysql_host = "mysql.hostinger.hr";
 $mysql_database = "u163058598_dario";
 $mysql_user = "u163058598_dario";
-$mysql_password = "lesnibokysr187";
+$mysql_password = "";
 $ida="SalonDARIO";
 */
  
